@@ -3,13 +3,13 @@ import { Formik } from 'formik';
 const ReservationForm = () => {
   
   const formData = {
-    "formspreeURL": "https://formspree.io/f/YOUR_API_KEY"
+    "reservationRoute": "/api/reservations"
   }
   
   return (
     <>
       <Formik
-        initialValues = {{ email: '', name: '', tel: '', date: '', time: '', persons: '1' }}
+        initialValues = {{ email: '', name: '', tel: '', date: '', time: '', guests: '1' }}
         validate = { values => {
             const errors = {};
             if (!values.email) {
@@ -24,32 +24,31 @@ const ReservationForm = () => {
         onSubmit = {( values, { setSubmitting, resetForm } ) => {
             const form = document.getElementById("contactForm");
             const status = document.getElementById("contactFormStatus");
-            const data = new FormData();
+            const data = {};
 
-            data.append('name', values.name);
-            data.append('email', values.email);
-            data.append('tel', values.tel);
-            data.append('date', values.date);
-            data.append('time', values.time);
-            data.append('persons', values.persons);
+            data['name'] = values.name;
+            data['email'] = values.email;
+            data['phone'] = values.tel;
+            data['date'] = values.date;
+            data['time'] = values.time;
+            data['guests'] = values.guests;
 
             fetch(form.action, {
                 method: 'POST',
-                body: data,
+                body: JSON.stringify(data),
                 headers: {
-                    'Accept': 'application/json'
+                    'Content-Type': 'application/json'
                 }
             }).then(response => {
                 console.log(response);
                 if (response.ok) {
                     resetForm();
-                    status.innerHTML = "Thanks for your submission!";
+                    status.innerHTML = "Thanks for your submission! Please wait a few seconds...";
                     status.style.display = 'block';
                     form.style.display = 'none';
 
                     setTimeout(function(){
-                      status.style.display = 'none';
-                      form.style.display = 'block';
+                      status.innerHTML = "You've reserved your spot! We can't wait to see you."
                     }, 4000);
                 } else {
                     response.json().then(data => {
@@ -77,7 +76,7 @@ const ReservationForm = () => {
             isSubmitting,
             /* and other goodies */
         }) => (
-        <form onSubmit={handleSubmit} id="contactForm" action={formData.formspreeURL}>
+        <form onSubmit={handleSubmit} id="contactForm" action={formData.reservationRoute}>
 
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -125,15 +124,21 @@ const ReservationForm = () => {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div className="kf-field">
                   <select 
-                    name="persons"
-                    value={values.persons}
+                    name="guests"
+                    value={values.guests}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   >
-                    <option value="1" selected>1 Person</option>
-                    <option value="2">2 Persons</option>
-                    <option value="3">3 Persons</option>
-                    <option value="4">4 Persons</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5 People</option>
+                    <option value="6">6 People</option>
+                    <option value="7">7 People</option>
+                    <option value="8">8 People</option>
+                    <option value="9">9 People</option>
+                    <option value="10">10+ People</option>
                   </select>
                 </div>
               </div>
@@ -170,7 +175,7 @@ const ReservationForm = () => {
                     type="submit"
                     className="kf-btn"
                   >
-                    <span>booking table</span>
+                    <span>Make Reservation</span>
                     <i className="fas fa-chevron-right" />
                   </button>
                 </div>
