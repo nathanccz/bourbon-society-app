@@ -1,5 +1,7 @@
 import { sliderProps } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from 'swiper';
+
 const InstaCarousel = () => {
   return (
     <div
@@ -7,12 +9,15 @@ const InstaCarousel = () => {
       data-animate="active"
     >
       <div className="container">
-        <Swiper {...sliderProps.kfInstaCarousel} className="swiper-container">
+        <Swiper modules={[Autoplay]} autoplay={{
+        delay: 2000, 
+        disableOnInteraction: false, 
+      }} {...sliderProps.kfInstaCarousel} className="swiper-container">
           <div className="swiper-wrapper">
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal1.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -22,7 +27,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal2.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -32,7 +37,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal3.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -42,7 +47,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal4.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -52,7 +57,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal5.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -62,7 +67,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal6.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -72,7 +77,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal1.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -82,7 +87,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal2.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -92,7 +97,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal3.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -102,7 +107,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal4.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -112,7 +117,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal5.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>
@@ -122,7 +127,7 @@ const InstaCarousel = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slide-item">
                 <div className="image kf-image-hover">
-                  <a href="instagram.com" target="blank">
+                  <a href="" target="blank">
                     <img src="images/ins_gal6.jpg" alt="image" />
                     <i className="fab fa-instagram" />
                   </a>

@@ -19,7 +19,7 @@ const Reservation = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Reservation
+            Reservations
           </h1>
         </div>
       </section>
