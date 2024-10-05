@@ -19,7 +19,7 @@ const MainSlider = () => {
                 Bourbon Society
                 </h2>
                 <div className="kf-bts">
-                  <Link href="menu-restaurant" className="kf-btn">
+                  <Link href="about" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
@@ -42,7 +42,7 @@ const MainSlider = () => {
                 Sommeliers
                 </h2>
                 <div className="kf-bts">
-                  <Link href="menu-coffee" className="kf-btn">
+                  <Link href="team" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
@@ -65,7 +65,7 @@ const MainSlider = () => {
                   Dinner Menu
                 </h2>
                 <div className="kf-bts">
-                  <Link href="menu-coffee" className="kf-btn">
+                  <Link href="menu-restaurant" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
                   </Link>

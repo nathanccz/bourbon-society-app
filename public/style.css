@@ -2850,7 +2850,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 * Section Video
 **/
 .section.kf-video {
-  padding: 130px 0 0 0;
+  padding: 130px 0;
 }
 
 .kf-video-item {
@@ -3270,7 +3270,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 * Section CTA
 **/
 .section.kf-cta {
-  padding: 70px 0;
+  padding: 90px 0;
 }
 
 .section.kf-cta:before {

@@ -4,6 +4,7 @@ import Layouts from "@/src/layouts/Layouts";
 import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from 'swiper';
 
 const Index = () => {
   return (
@@ -364,7 +365,10 @@ const Index = () => {
       {/* Section Grid Carousel */}
       <section className="section kf-grid-carousel">
         <div className="container">
-          <Swiper {...sliderProps.kfGridCarousel} className="swiper-container">
+          <Swiper modules={[Autoplay]} autoplay={{
+        delay: 2000, 
+        disableOnInteraction: false, 
+      }} {...sliderProps.kfGridCarousel} className="swiper-container">
             <SwiperSlide className="swiper-slide">
               <div
                 className="slide-item element-anim-1 scroll-animate"

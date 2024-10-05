@@ -177,7 +177,7 @@ const About = () => {
           />
         </div>
       </section>
-      {/* Section Services-2 */}
+      {/* Section Services-2 
       <section className="section kf-services">
         <div className="container">
           <div className="kf-services-items-2 row">
@@ -239,7 +239,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
       {/* Section Team */}
       <section className="section kf-team section-bg">
         <div className="container">
@@ -471,13 +471,13 @@ const About = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                  We Take Reservations
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                  Book a Table for Dinner or Whiskey Tasting
                 </h3>
               </div>
             </div>
@@ -487,7 +487,7 @@ const About = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Book a Table</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

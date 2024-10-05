@@ -17,7 +17,7 @@ const Team = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Our Chefs
+           Our Sommeliers
           </h1>
         </div>
       </section>
@@ -30,13 +30,13 @@ const Team = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Experience Team Member
+              Team Members
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Meet Our Professional Chefs
+              Meet Our Expert Sommeliers
             </h3>
           </div>
           <div className="kf-team-items row">
@@ -47,7 +47,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">Anthony J. Bowman</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Master of Whiskey</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team1.jpg" alt="image" />
@@ -79,7 +79,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">Kenny V. Gonzalez</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Senior Sommelier</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team2.jpg" alt="image" />
@@ -111,7 +111,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">Joseph M. Lawrence</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Senior Sommelier</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team3.jpg" alt="image" />
@@ -143,7 +143,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">Charles K. Smith</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Whiskey Specialist</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team4.jpg" alt="image" />
@@ -175,7 +175,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">Richard A. White</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Whiskey Specialist</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team5.jpg" alt="image" />
@@ -207,7 +207,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">David M. Seward</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Whiskey Specialist</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team6.jpg" alt="image" />
@@ -239,7 +239,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">Julio N. Williams</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Whiskey Specialist</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team7.jpg" alt="image" />
@@ -271,7 +271,7 @@ const Team = () => {
               >
                 <div className="desc">
                   <h5 className="name">Christopher K. Dixon</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <div className="subname">Whiskey Specialist</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team8.jpg" alt="image" />
@@ -312,13 +312,13 @@ const Team = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                  We Take Reservations
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                  Book a Table for Dinner or Whiskey Tasting
                 </h3>
               </div>
             </div>
@@ -328,7 +328,7 @@ const Team = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Book a Table</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

@@ -303,33 +303,33 @@ const History = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Get Every Single Update
+              Latest Blog Entries
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Read Some Latest Blog &amp; News
+              Go Deeper Into the Industry
             </h3>
           </div>
           <div className="kf-blog-grid-items row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
+                  <Link href="blog-single-1">
                     <img src="images/latest_blog1.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                  The Art of Whiskey Aging: Why Time is the True Alchemist
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2021
+                    25 Sep 2024
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
@@ -338,23 +338,23 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                  <Link href="blog-single-2">
+                    <img src="images/latest_blog1_2.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Decisions For Building Flexible Components DevTools Browser
+                    The Whiskey Renaissance: Exploring Craft Distilling
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2021
+                    20 Sep 2024
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
@@ -363,23 +363,23 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                  <Link href="blog-single-3">
+                    <img src="images/latest_blog1_3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                  Top Whiskey Distilleries: A Journey Through American Craftsmanship
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2021
+                    10 Sep 2024
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
@@ -390,14 +390,14 @@ const History = () => {
             </div>
           </div>
           <div className="align-center">
-            <a
-              href="#"
+            <Link
+              href="blog-grid"
               className="kf-btn element-anim-1 scroll-animate"
               data-animate="active"
             >
               <span>view all</span>
               <i className="fas fa-chevron-right" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -414,13 +414,13 @@ const History = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                  We Take Reservations
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                  Book a Table for Dinner or Whiskey Tasting
                 </h3>
               </div>
             </div>
@@ -430,7 +430,7 @@ const History = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Book a Table</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

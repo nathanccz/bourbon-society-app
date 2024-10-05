@@ -230,13 +230,13 @@ const BlogSingle = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                  We Take Reservations
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                  Book a Table for Dinner or Whiskey Tasting
                 </h3>
               </div>
             </div>
@@ -246,7 +246,7 @@ const BlogSingle = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Book a Table</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

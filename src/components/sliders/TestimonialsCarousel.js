@@ -108,7 +108,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev1.jpg" alt="image" />
+                    <img src="images/rev4.jpg" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">
@@ -133,7 +133,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev2.jpg" alt="image" />
+                    <img src="images/rev5.jpg" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">
@@ -158,7 +158,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev3.jpg" alt="image" />
+                    <img src="images/rev6.jpg" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">

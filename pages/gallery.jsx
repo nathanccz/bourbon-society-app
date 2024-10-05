@@ -34,7 +34,7 @@ const Gallery = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg3.jpg)" }}
+        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -44,13 +44,13 @@ const Gallery = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                  We Take Reservations
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                  Book a Table for Dinner or Whiskey Tasting
                 </h3>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Gallery = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Book a Table</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
