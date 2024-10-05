@@ -41,11 +41,11 @@ const Contacts = () => {
                   <ul>
                     <li>
                       55 Main Street, 2nd Block, <br />
-                      3rd Floor, New York
+                      Downtown Los Angeles
                     </li>
                     <li>
-                      394 Main Street, 2nd Block, <br />
-                      3rd Floor, USA
+                      Coming soon to <br />
+                      Old Town Pasadena
                     </li>
                   </ul>
                 </div>
@@ -64,12 +64,12 @@ const Contacts = () => {
                   <h5 className="name">Email Address</h5>
                   <ul>
                     <li>
-                      supportkaffen@gmail.com <br />
-                      www.kaffeninfo.net
+                      bourbonsociety@gmail.com <br />
+                      www.bourbonsociety.netlify.app
                     </li>
                     <li>
-                      supportkaffen@gmail.com <br />
-                      www.kaffeninfo.net
+                      nathanweb.dev@proton.me <br />
+                      www.nathanweb.dev
                     </li>
                   </ul>
                 </div>

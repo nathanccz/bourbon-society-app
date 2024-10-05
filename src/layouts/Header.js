@@ -90,10 +90,10 @@ const Header = () => {
                   </Link>
                   <ul>
                     <li>
-                      <Link href="menu-coffee">Drink Menu</Link>
+                      <Link href="menu-coffee">Cocktail Menu</Link>
                     </li>
                     <li>
-                      <Link href="menu-restaurant">Dinner Menu</Link>
+                      <Link href="menu-restaurant">Restaurant Menu</Link>
                     </li>
                   </ul>
                 </li>

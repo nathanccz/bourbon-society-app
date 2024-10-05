@@ -50,13 +50,13 @@ const CoffeeMenu = () => {
             className="kf-subtitle element-anim-1 scroll-animate"
             data-animate="active"
           >
-            Choose Best of
+            Drink Menu
           </div>
           <h3
             className="kf-title element-anim-1 scroll-animate"
             data-animate="active"
           >
-            Kaffen Coffee Menu
+            Hand-crafted Cocktails
           </h3>
         </div>
         <div
@@ -72,24 +72,24 @@ const CoffeeMenu = () => {
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("fast-food")}
-            data-href="fast-food"
+            onClick={handleFilterKeyChange("bourbon")}
+            data-href="bourbon"
           >
-            Fast food
+            Bourbon
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("hot-coffee")}
-            data-href="hot-coffee"
+            onClick={handleFilterKeyChange("rye")}
+            data-href="rye"
           >
-            Hot coffee
+            Rye
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("dessert")}
-            data-href="dessert"
+            onClick={handleFilterKeyChange("other")}
+            data-href="other"
           >
-            Dessert
+            Other
           </a>
         </div>
         <div
@@ -97,7 +97,7 @@ const CoffeeMenu = () => {
           style={{ backgroundImage: "url(images/menu_logo.png)" }}
         >
           <div className="row all-menu-items">
-            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all bourbon">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -108,13 +108,13 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">Americano</h5>
-                  <div className="subname">2/3 espresso, 1/3 streamed milk</div>
-                  <div className="price">$4.9</div>
+                  <h5 className="name">Manhattan Cocktail</h5>
+                  <div className="subname">Bourbon whiskey, sweet vermouth, and bitters</div>
+                  <div className="price">$16</div>
                 </div>
               </div>
             </div>
-            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all bourbon">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -125,13 +125,13 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">Espresso</h5>
-                  <div className="subname">2/3 espresso, 1/3 streamed milk</div>
-                  <div className="price">$4.9</div>
+                  <h5 className="name">Old-Fashioned</h5>
+                  <div className="subname">Bourbon whiskey, bitters, sugar, and an orange slice</div>
+                  <div className="price">$16.5</div>
                 </div>
               </div>
             </div>
-            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all bourbon">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -142,13 +142,13 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">Barista Pouring Syrup</h5>
-                  <div className="subname">2/3 espresso, 1/3 streamed milk</div>
-                  <div className="price">$3.5</div>
+                  <h5 className="name">Whiskey Sour</h5>
+                  <div className="subname">Lemon, simple syrup, topped with egg white foam</div>
+                  <div className="price">$17</div>
                 </div>
               </div>
             </div>
-            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all hot-coffee">
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all bourbon">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -159,13 +159,13 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">Late</h5>
-                  <div className="subname">2/3 espresso, 1/3 streamed milk</div>
-                  <div className="price">$6.0</div>
+                  <h5 className="name">John Collins</h5>
+                  <div className="subname">Whiskey sour with club soda</div>
+                  <div className="price">$15</div>
                 </div>
               </div>
             </div>
-            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all other">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -176,13 +176,13 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">Cappuccino Arabica</h5>
-                  <div className="subname">2/3 espresso, 1/3 streamed milk</div>
-                  <div className="price">$2.8</div>
+                  <h5 className="name">Irish Coffee</h5>
+                  <div className="subname">Coffee, Irish whiskey, brown sugar, and whipped cream</div>
+                  <div className="price">$16.5</div>
                 </div>
               </div>
             </div>
-            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all dessert">
+            <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all rye">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
                 data-animate="active"
@@ -193,12 +193,13 @@ const CoffeeMenu = () => {
                   </a>
                 </div>
                 <div className="desc">
-                  <h5 className="name">Milk Cream</h5>
-                  <div className="subname">2/3 espresso, 1/3 streamed milk</div>
-                  <div className="price">$7.5</div>
+                  <h5 className="name">Sazerac</h5>
+                  <div className="subname">Spicy rye with sugar, bitters, and absinthe</div>
+                  <div className="price">$18</div>
                 </div>
               </div>
             </div>
+            {/*}
             <div className="kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 all fast-food">
               <div
                 className="kf-menu-item element-anim-1 scroll-animate"
@@ -236,7 +237,7 @@ const CoffeeMenu = () => {
                   <div className="price">$17.5</div>
                 </div>
               </div>
-            </div>
+            </div>{*/}
           </div>
         </div>
       </div>
