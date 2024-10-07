@@ -47,17 +47,17 @@ const Footer = () => {
                 <li>
                   <i className="las la-map-marker" />
                   <em>Location :</em>
-                  Coming soon to Pasadena, CA
+                  <span>Coming soon to Pasadena, CA</span>
                 </li>
                 <li>
                   <i className="las la-envelope-open-text" />
                   <em>Email Address :</em>
-                  nathanweb.dev@proton.me
+                  <span>nathanweb.dev@proton.me</span>
                 </li>
                 <li>
                   <i className="las la-phone" />
                   <em>Phone Number :</em>
-                  +626 555 6789 
+                  <span>+626 555 6789</span>
                 </li>
               </ul>
             </div>

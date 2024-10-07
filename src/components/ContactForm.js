@@ -138,13 +138,13 @@ const ContactForm = () => {
                   <textarea
                     name="message"
                     placeholder="Message"
-                    defaultValue={""}
+        
                     required="required" 
                     onChange={handleChange}
                     onBlur={handleBlur}
                     value={values.message}
                   />
-                </div>
+                </div>{/*defaultValue={""}*/}
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div className="kf-bts">

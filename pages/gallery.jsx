@@ -25,7 +25,7 @@ const Gallery = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Gallery
+            Photo Gallery
           </h1>
         </div>
       </section>

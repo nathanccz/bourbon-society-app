@@ -50,13 +50,13 @@ const PhotoGalleryIsotope = () => {
             className="kf-subtitle element-anim-1 scroll-animate"
             data-animate="active"
           >
-            Our Photo Gallery
+            Image Feed
           </div>
           <h3
             className="kf-title element-anim-1 scroll-animate"
             data-animate="active"
           >
-            Looks Our Photo Gallery
+            Menu Aesthetics
           </h3>
         </div>
         <div
@@ -72,31 +72,31 @@ const PhotoGalleryIsotope = () => {
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("fast-food")}
-            data-href="fast-food"
+            onClick={handleFilterKeyChange("bourbon")}
+            data-href="bourbon"
           >
-            Fast food
+            bourbon
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("hot-coffee")}
-            data-href="hot-coffee"
+            onClick={handleFilterKeyChange("scotch")}
+            data-href="scotch"
           >
-            Hot coffee
+            scotch
           </a>
           <a
             className="c-pointer"
-            data-href="dinner-menu"
-            onClick={handleFilterKeyChange("dinner-menu")}
+            data-href="rye"
+            onClick={handleFilterKeyChange("rye")}
           >
-            Dinner menu
+            rye
           </a>
           <a
             className="c-pointer"
-            data-href="special-pizza"
-            onClick={handleFilterKeyChange("special-pizza")}
+            data-href="dinner-entree"
+            onClick={handleFilterKeyChange("dinner-entree")}
           >
-            Special pizza
+            Dinner entrée
           </a>
         </div>
         <div className="kf-gallery-items row">
@@ -232,7 +232,7 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Black coffee</div>
+                  <div className="value">Bourbon</div>
                 </div>
                 <div className="subname">
                   <div className="value">hot coffee</div>

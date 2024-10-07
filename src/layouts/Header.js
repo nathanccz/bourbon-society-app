@@ -55,7 +55,7 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-right">
             {/* location */}
             <div className="kf-h-group">
-              <i className="fas fa-map-marker-alt" /> <em>Location :</em> Coming soon to pasadena, ca
+              <i className="fas fa-map-marker-alt" /> <em>Location :</em> Coming soon to dtla
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ const Header = () => {
                       <Link href="reservation">Reservations</Link>
                     </li>
                     <li>
-                      <Link href="history">History</Link>
+                      <Link href="blog-grid">Blog</Link>
                     </li>
                     <li>
                       <Link href="team">Our Sommeliers</Link>
@@ -119,11 +119,6 @@ const Header = () => {
                       <Link href="faq">FAQ</Link>
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <a href="blog-grid">
-                    Blog
-                  </a>
                 </li>
                 <li>
                   <Link href="contacts">Contact</Link>
@@ -265,15 +260,15 @@ const Header = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* hours */}
               <div className="kf-h-group">
-                <i className="far fa-clock" /> <em>opening hours :</em> 08:00 am
-                - 09:00 pm
+                <i className="far fa-clock" /> <em>opening hours :</em> 05:00pm
+                - 2:00am
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* location */}
               <div className="kf-h-group">
                 <i className="fas fa-map-marker-alt" /> <em>Location :</em> 55
-                main street, new york
+                main street, downtown los angeles
               </div>
             </div>
           </div>
