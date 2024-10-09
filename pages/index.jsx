@@ -46,7 +46,7 @@ const Index = () => {
               >
                 <img src="images/quote_img.jpg" alt="image" />
                 <div>
-                Life is too short to drink bad whiskey or to be too serious about it.
+                If when you say ‘whiskey’ you mean the oil of conversation, the philosophic wine… the drink that enables a man to magnify his joy, then I am certainly for it.
                 </div>
               </div>
             </div>
@@ -667,7 +667,7 @@ const Index = () => {
       </section>
       {/* Section CTA */}
       <section
-        className={`section kf-cta ${isMobile ? 'mobile-bg' : 'kf-parallax'}`}
+        className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
         <div className="container">

@@ -1835,6 +1835,15 @@ button.mfp-close:before, button.mfp-arrow:before {
           transform: scale(1.05);
 }
 
+@media (pointer: coarse) {
+  .kf-parallax {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: unset !important;
+  }
+}
+
 .kf-parallax {
   background-repeat: no-repeat;
   background-position: center center;
