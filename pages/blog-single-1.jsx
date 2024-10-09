@@ -79,12 +79,7 @@ const BlogSingle = () => {
                 className="post-details element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span className="tags-links">
-                  <span>Tags:</span>
-                  <Link href="blog">photo</Link>
-                  <Link href="blog">fashion</Link>
-                  <Link href="blog">creative</Link>
-                </span>
+                
               </div>
               {/* Comments */}
               <div
@@ -97,7 +92,7 @@ const BlogSingle = () => {
                     className="element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    3 Comments
+                    2 Comments
                   </h4>
                   <ul className="comments">
                     <li className="comment comment-item">
@@ -110,15 +105,10 @@ const BlogSingle = () => {
                         <div className="comment-box__body">
                           <div className="content-caption post-content description">
                             <h5 className="comment-box__details">
-                              Alex Morrison <span>March 9, 2021</span>
+                              Alex Morrison <span>September 26, 2024</span>
                             </h5>
                             <p>
-                              Gallery blocks have two settings: the number of
-                              columns, and whether or not images should be
-                              cropped. The default number of columns is three,
-                              and the maximum number of columns is eight. Below
-                              is a three column gallery at full width, with
-                              cropped images.
+                            As a whiskey enthusiast, I’ve often wondered about the ideal aging period for different styles of whiskey. While some swear by the benefits of extended aging, I believe that the “sweet spot” of aging is often overlooked. For many whiskies, particularly those from Northern Europe, a aging period of 10-18 years yields a perfectly balanced flavor profile. 
                             </p>
                           </div>
                         </div>
@@ -139,15 +129,10 @@ const BlogSingle = () => {
                         <div className="comment-box__body">
                           <div className="content-caption post-content description">
                             <h5 className="comment-box__details">
-                              John Doe <span>March 9, 2021</span>
+                              John Doe <span>September 26, 2024</span>
                             </h5>
                             <p>
-                              Gallery blocks have two settings: the number of
-                              columns, and whether or not images should be
-                              cropped. The default number of columns is three,
-                              and the maximum number of columns is eight. Below
-                              is a three column gallery at full width, with
-                              cropped images.
+                            Of course, climate and barrel type also influence the sweet spot, with American whiskeys often reaching their peak at a younger age. The key is to find the right balance between flavor development and oxidation, ensuring that the whiskey doesn’t become overly woody or tannic.
                             </p>
                           </div>
                         </div>

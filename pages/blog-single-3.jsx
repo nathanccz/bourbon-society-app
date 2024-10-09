@@ -12,7 +12,7 @@ const BlogSingle = () => {
               className="kf-date element-anim-1 scroll-animate"
               data-animate="active"
             >
-              25 Sep 2024 - <Link href="blog">Process</Link>
+              11 Sep 2024 - <Link href="blog">Process</Link>
             </div>
             <h1
               className="kf-p-title text-anim-1 scroll-animate"
@@ -81,12 +81,7 @@ const BlogSingle = () => {
                 className="post-details element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span className="tags-links">
-                  <span>Tags:</span>
-                  <Link href="blog">photo</Link>
-                  <Link href="blog">fashion</Link>
-                  <Link href="blog">creative</Link>
-                </span>
+                
               </div>
               {/* Comments */}
               <div
@@ -99,68 +94,9 @@ const BlogSingle = () => {
                     className="element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    3 Comments
+                    No Comments
                   </h4>
-                  <ul className="comments">
-                    <li className="comment comment-item">
-                      <div className="comment comment-box">
-                        <img
-                          src="https://secure.gravatar.com/avatar/aa9d265f1a064dcd6973df722b49c392?s=64&d=mm&r=g"
-                          className="avatar"
-                          alt
-                        />
-                        <div className="comment-box__body">
-                          <div className="content-caption post-content description">
-                            <h5 className="comment-box__details">
-                              Alex Morrison <span>March 9, 2021</span>
-                            </h5>
-                            <p>
-                              Gallery blocks have two settings: the number of
-                              columns, and whether or not images should be
-                              cropped. The default number of columns is three,
-                              and the maximum number of columns is eight. Below
-                              is a three column gallery at full width, with
-                              cropped images.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="comment-footer">
-                          <a className="comment-reply-link" href="#">
-                            Reply
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="comment comment-item">
-                      <div className="comment comment-box">
-                        <img
-                          src="https://secure.gravatar.com/avatar/aa9d265f1a064dcd6973df722b49c392?s=64&d=mm&r=g"
-                          className="avatar"
-                          alt
-                        />
-                        <div className="comment-box__body">
-                          <div className="content-caption post-content description">
-                            <h5 className="comment-box__details">
-                              John Doe <span>March 9, 2021</span>
-                            </h5>
-                            <p>
-                              Gallery blocks have two settings: the number of
-                              columns, and whether or not images should be
-                              cropped. The default number of columns is three,
-                              and the maximum number of columns is eight. Below
-                              is a three column gallery at full width, with
-                              cropped images.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="comment-footer">
-                          <a className="comment-reply-link" href="#">
-                            Reply
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
+                  
                   <div className="form-comment">
                     <div className="comment-respond">
                       <div className="m-titles">

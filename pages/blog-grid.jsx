@@ -58,7 +58,7 @@ const BlogGrid = () => {
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
-                    Comments (7)
+                    Comments (2)
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const BlogGrid = () => {
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
-                    Comments (7)
+                    Comments (2)
                   </div>
                 </div>
               </div>
@@ -104,11 +104,11 @@ const BlogGrid = () => {
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    10 Sep 2024
+                    11 Sep 2024
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
-                    Comments (7)
+                    Comments (0)
                   </div>
                 </div>
               </div>
