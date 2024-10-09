@@ -100,7 +100,7 @@ const PhotoGalleryIsotope = () => {
           </a>
         </div>
         <div className="kf-gallery-items row">
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-entree">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -112,15 +112,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">italian burger</div>
+                  <div className="value">ribeye steak</div>
                 </div>
                 <div className="subname">
-                  <div className="value">fast food</div>
+                  <div className="value">Dinner entrée</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all scotch">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -132,15 +132,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">italian pasta</div>
+                  <div className="value">scotch neat</div>
                 </div>
                 <div className="subname">
-                  <div className="value">dinner menu</div>
+                  <div className="value">Drink menu</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-entree">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -152,15 +152,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Chicken burger</div>
+                  <div className="value">beef tataki</div>
                 </div>
                 <div className="subname">
-                  <div className="value">fast food</div>
+                  <div className="value">Dinner entrée</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all special-pizza">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all bourbon">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -172,15 +172,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">italian pizza</div>
+                  <div className="value">bourbon on the rock</div>
                 </div>
                 <div className="subname">
-                  <div className="value">special pizza</div>
+                  <div className="value">Drink menu</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all rye">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -192,15 +192,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">cappuccino</div>
+                  <div className="value">bottle of rye</div>
                 </div>
                 <div className="subname">
-                  <div className="value">hot coffee</div>
+                  <div className="value">Drink menu</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-entree">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -212,15 +212,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Chicken nuggets</div>
+                  <div className="value">foie gras</div>
                 </div>
                 <div className="subname">
-                  <div className="value">fast food</div>
+                  <div className="value">Dinner entrée</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all bourbon">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -232,15 +232,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Bourbon</div>
+                  <div className="value">Bourbon neat</div>
                 </div>
                 <div className="subname">
-                  <div className="value">hot coffee</div>
+                  <div className="value">Drink menu</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all rye">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -252,15 +252,15 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Spaghetti</div>
+                  <div className="value">Rye on the rocks</div>
                 </div>
                 <div className="subname">
-                  <div className="value">dinner menu</div>
+                  <div className="value">Drink menu</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all scotch">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -272,10 +272,10 @@ const PhotoGalleryIsotope = () => {
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Sea Fish</div>
+                  <div className="value">scotch on the rocks</div>
                 </div>
                 <div className="subname">
-                  <div className="value">dinner menu</div>
+                  <div className="value">Drink menu</div>
                 </div>
               </div>
             </div>
