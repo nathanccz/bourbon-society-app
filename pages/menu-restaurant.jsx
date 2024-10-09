@@ -1,7 +1,6 @@
 import InstaCarousel from "@/src/components/sliders/InstaCarousel";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
-import { isMobile } from 'react-device-detect';
 
 const MenuRestaurant = () => {
   return (
@@ -199,7 +198,7 @@ const MenuRestaurant = () => {
       </section>
       {/* Section CTA */}
       <section
-        className={`section kf-cta ${isMobile ? 'mobile-bg' : 'kf-parallax'}`}
+        className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
         <div className="container">
