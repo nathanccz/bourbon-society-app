@@ -115,9 +115,6 @@ const Header = () => {
                     <li>
                       <Link href="gallery">Gallery</Link>
                     </li>
-                    <li>
-                      <Link href="faq">FAQ</Link>
-                    </li>
                   </ul>
                 </li>
                 <li>
@@ -149,18 +146,6 @@ const Header = () => {
           <ul>
             <li className="has-children">
               <Link href="/">Home</Link>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("home")}
-              />
-              <ul style={activeLi("home")}>
-                <li>
-                  <Link href="/">Coffee House</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Restaurant</Link>
-                </li>
-              </ul>
             </li>
             <li>
               <Link href="about">About</Link>
@@ -173,55 +158,31 @@ const Header = () => {
               />
               <ul style={activeLi("Menu")}>
                 <li>
-                  <Link href="menu-coffee">Menu Coffee</Link>
+                  <Link href="menu-coffee">Cocktail Menu</Link>
                 </li>
                 <li>
-                  <Link href="menu-restaurant">Menu Restaurant</Link>
+                  <Link href="menu-restaurant">Restaurant Menu</Link>
                 </li>
               </ul>
             </li>
             <li className="has-children">
-              <a href="#">Pages</a>
+              <a href="#">More</a>
               <i
                 className="las la-angle-down"
                 onClick={() => activeMenuSet("Pages")}
               />
               <ul style={activeLi("Pages")}>
                 <li>
-                  <Link href="services">Service</Link>
-                </li>
-                <li>
                   <Link href="reservation">Reservation</Link>
                 </li>
                 <li>
-                  <Link href="history">History</Link>
+                  <Link href="blog-grid">Blog</Link>
                 </li>
                 <li>
-                  <Link href="team">Our Chefs</Link>
+                  <Link href="team">Our Sommeliers</Link>
                 </li>
                 <li>
                   <Link href="gallery">Gallery</Link>
-                </li>
-                <li>
-                  <Link href="faq">FAQ</Link>
-                </li>
-              </ul>
-            </li>
-            <li className="has-children">
-              <a href="#">Blog</a>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("Blog")}
-              />
-              <ul style={activeLi("Blog")}>
-                <li>
-                  <Link href="blog-grid">Blog Grid</Link>
-                </li>
-                <li>
-                  <Link href="blog">Blog Standard</Link>
-                </li>
-                <li>
-                  <Link href="blog-single">Blog Single</Link>
                 </li>
               </ul>
             </li>

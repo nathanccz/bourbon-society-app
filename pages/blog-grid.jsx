@@ -1,5 +1,6 @@
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
+import { isMobile } from 'react-device-detect';
 
 const BlogGrid = () => {
   return (
@@ -129,7 +130,7 @@ const BlogGrid = () => {
       </section>
       {/* Section CTA */}
       <section
-        className="section kf-cta kf-parallax"
+        className={`section kf-cta ${isMobile ? 'mobile-bg' : 'kf-parallax'}`}
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
         <div className="container">
@@ -140,13 +141,13 @@ const BlogGrid = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a Table On Coffee House
+                  We Take Reservations
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking Table For Your &amp; Family Members
+                  Book a Table for Dinner or Whiskey Tasting
                 </h3>
               </div>
             </div>
@@ -156,7 +157,7 @@ const BlogGrid = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>booking table</span>
+                <span>Book a Table</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>

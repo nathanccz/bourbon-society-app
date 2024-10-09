@@ -2,6 +2,7 @@ import VideoPlayer from "@/src/components/VideoPlayer";
 import TestimonialsCarousel from "@/src/components/sliders/TestimonialsCarousel";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
+import { isMobile } from 'react-device-detect';
 
 const About = () => {
   return (
@@ -460,7 +461,7 @@ const About = () => {
       <TestimonialsCarousel />
       {/* Section CTA */}
       <section
-        className="section kf-cta kf-parallax"
+        className={`section kf-cta ${isMobile ? 'mobile-bg' : 'kf-parallax'}`}
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
         <div className="container">

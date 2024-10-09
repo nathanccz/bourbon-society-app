@@ -5,6 +5,7 @@ import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from 'swiper';
+import { isMobile } from 'react-device-detect';
 
 const Index = () => {
   return (
@@ -666,7 +667,7 @@ const Index = () => {
       </section>
       {/* Section CTA */}
       <section
-        className="section kf-cta kf-parallax"
+        className={`section kf-cta ${isMobile ? 'mobile-bg' : 'kf-parallax'}`}
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
         <div className="container">
