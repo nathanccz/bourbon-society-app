@@ -5,7 +5,6 @@ import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from 'swiper';
-import { isMobile } from 'react-device-detect';
 
 const Index = () => {
   return (

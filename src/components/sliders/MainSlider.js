@@ -9,18 +9,50 @@ const MainSlider = () => {
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
+              style={{ backgroundImage: "url(images/started_img_n6.jpg)" }}
+            />
+            <div className="container">
+              <div className="description align-left element-anim-1">
+                <div className="subtitles">Welcome to the Kaffen</div>
+                <h2 className="name text-anim-1" data-splitting="chars">
+                  The London <br />
+                  Coffee House
+                </h2>
+                <div className="kf-bts">
+                  <Link href="menu-restaurant" className="kf-btn">
+                    <span>explore more</span>
+                    <i className="fas fa-chevron-right" />
+                  </Link>
+                  <Link href="reservation" className="kf-btn dark-btn">
+                    <span>get delivery</span>
+                    <i className="fas fa-chevron-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <div className="kf-started-item">
+            <div
+              className="slide js-parallax"
               style={{ backgroundImage: "url(images/started_img_n5.jpg)" }}
             />
             <div className="container">
               <div className="description align-left element-anim-1">
-                <div className="subtitles">We're Glad You're Here</div>
+                <div className="subtitles">Welcome to the Kaffen</div>
                 <h2 className="name text-anim-1" data-splitting="chars">
-                Welcome to<br />
-                Bourbon Society
+                  The Paris
+                  <br />
+                  Coffee House
                 </h2>
                 <div className="kf-bts">
-                  <Link href="about" className="kf-btn">
+                  <Link href="menu-coffee" className="kf-btn">
                     <span>explore more</span>
+                    <i className="fas fa-chevron-right" />
+                  </Link>
+                  <Link href="reservation" className="kf-btn dark-btn">
+                    <span>get delivery</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -35,38 +67,19 @@ const MainSlider = () => {
               style={{ backgroundImage: "url(images/started_img_n3.jpg)" }}
             />
             <div className="container">
-              <div className="description align-left element-anim-1">
-                <div className="subtitles">Dedicated to the Craft</div>
+              <div className="description align-left">
+                <div className="subtitles">Welcome to the Kaffen</div>
                 <h2 className="name text-anim-1" data-splitting="chars">
-                Meet Our Whiskey<br />
-                Sommeliers
+                  Great Coffee <br />
+                  Good Vibes
                 </h2>
                 <div className="kf-bts">
-                  <Link href="team" className="kf-btn">
+                  <Link href="menu-coffee" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="kf-started-item">
-            <div
-              className="slide js-parallax"
-              style={{ backgroundImage: "url(images/started_img_n6.jpg)" }}
-            />
-            <div className="container">
-              <div className="description align-left">
-                <div className="subtitles">Full-service Restaurant</div>
-                <h2 className="name text-anim-1" data-splitting="chars">
-                  Chef-driven <br />
-                  Dinner Menu
-                </h2>
-                <div className="kf-bts">
-                  <Link href="menu-restaurant" className="kf-btn">
-                    <span>explore more</span>
+                  <Link href="reservation" className="kf-btn dark-btn">
+                    <span>get delivery</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -81,3 +94,4 @@ const MainSlider = () => {
   );
 };
 export default MainSlider;
+
