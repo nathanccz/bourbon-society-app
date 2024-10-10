@@ -1189,14 +1189,14 @@ button.mfp-close:before {
 
 .kf-logo {
   position: relative;
-  width: 240px;
+  width: 200px;
   font-size: 0;
 }
 
 .kf-logo img {
   max-width: 100%;
   width: auto;
-  height: 40px;
+  height: 30px;
 }
 
 .kf-search {
