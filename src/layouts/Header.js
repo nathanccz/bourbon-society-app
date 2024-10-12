@@ -126,7 +126,6 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 align-right">
             {/* menu btn */}
             <a
-              href="#"
               className={`kf-menu-btn ${toggle ? "active" : ""}`}
               onClick={() => setToggle(!toggle)}
             >
