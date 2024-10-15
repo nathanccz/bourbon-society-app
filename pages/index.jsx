@@ -5,12 +5,39 @@ import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from 'swiper';
+import { isMobile } from 'react-device-detect';
 
 const Index = () => {
+
   return (
     <Layouts>
       {/* Section Started Slider */}
-      <MainSlider />
+      {isMobile ? (
+      <section className="section kf-started-slider">
+        <div className="kf-started-item">
+            <div
+              className="slide js-parallax"
+              style={{ backgroundImage: "url(images/started_img_n5.jpg)" }}
+            />
+            <div className="container">
+              <div className="description align-left">
+                <div className="subtitles">We're Glad You're Here</div>
+                <h2 className="name">
+                Welcome to<br />
+                Bourbon Society
+                </h2>
+                <div className="kf-bts">
+                  <Link href="about" className="kf-btn">
+                    <span>explore more</span>
+                    <i className="fas fa-chevron-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      ) : <MainSlider />}
+      
       {/* Section About */}
       <section className="section kf-about section-bg">
         <div className="container">
