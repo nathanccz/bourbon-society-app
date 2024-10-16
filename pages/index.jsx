@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from 'swiper';
 import { isMobile } from 'react-device-detect';
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 const Index = () => {
 
@@ -13,29 +14,45 @@ const Index = () => {
     <Layouts>
       {/* Section Started Slider */}
       {isMobile ? (
-      <section className="section kf-started-slider">
-        <div className="kf-started-item">
-            <div
-              className="slide js-parallax"
-              style={{ backgroundImage: "url(images/started_img_n5.jpg)" }}
-            />
-            <div className="container">
-              <div className="description align-left">
-                <div className="subtitles">We're Glad You're Here</div>
-                <h2 className="name">
-                Welcome to<br />
-                Bourbon Society
-                </h2>
+      <section
+			className="ezy__header33 light kf-parallax section"
+			style={{
+				backgroundImage:
+					"url(images/started_img_n5.jpg)",
+			}}
+		>
+			<div className="ezy__header33-overlay" />
+			<Container>
+				<Row>
+					<Col xs={12} md={9} lg={7}>
+						<h1 className="ezy__header33-heading mb-4">Welcome to <br/> Bourbon Society</h1>
+						<Row>
+							<Col xs={12} md={7} lg={8}>
+								<p className="ezy__header33-sub-heading mb-5">
+                A sophisticated haven where connoisseurs can savor over 200 premium bourbons and rare whiskeys, paired with Southern-inspired cuisine 
+								</p>
                 <div className="kf-bts">
                   <Link href="about" className="kf-btn">
                     <span>explore more</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
-              </div>
-            </div>
-          </div>
-      </section>
+							</Col>
+						</Row>
+						<Row>
+							<Col xs={12} md={10} lg={6}>
+								<Button
+									variant=""
+									className="ezy__header33-btn rounded-pill w-100"
+								>
+									
+								</Button>
+							</Col>
+						</Row>
+					</Col>
+				</Row>
+			</Container>
+		</section>
       ) : <MainSlider />}
       
       {/* Section About */}
